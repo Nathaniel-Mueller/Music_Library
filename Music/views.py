@@ -6,7 +6,7 @@ from .models import *
 from .serializers import *
 
 @api_view(['GET','POST'])
-def SongList(request):
+def songList(request):
     
     if request.method == 'GET':
         songs = Song.objects.all()
