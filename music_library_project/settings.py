@@ -54,6 +54,8 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'music_library_project.urls'
 
+DATE_INPUT_FORMATS = ('%mm/%dd/%YYYY')
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
